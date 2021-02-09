@@ -15,14 +15,17 @@
 body,
 a {
   font-family: 'Roboto', sans-serif;
-  background-color: var(--back-white);
+}
+
+a {
   color: var(--text-black);
 }
 
-/* переназначаем шрифт для заголовков секций через общий класс */
+/* шрифт Логотипа */
 .logo,
 .footer-logo {
   font-family: 'Raleway', sans-serif;
+  color: var(--text-black);
 }
 
 /*===========================================================*/
@@ -35,14 +38,19 @@ a {
   color: var(--text-blue);
 }
 
-.link {
+.link,
+.features-text,
+.command-text,
+.project-text {
   color: var(--text-grey);
 }
 
 .hero-title,
 .hero-btn,
 .footer,
-.footer-logo {
+.footer-logo,
+.project-btn:hover,
+.project-btn:focus {
   color: var(--text-white);
 }
 
@@ -51,6 +59,16 @@ a {
 .footer-logo,
 .footer-link {
   background-color: var(--back-black-light);
+}
+
+.hero-btn,
+.project-btn:hover,
+.project-btn:focus {
+  background-color: var(--text-blue);
+}
+
+.command {
+  background-color: var(--back-grey);
 }
 
 .footer-link {
