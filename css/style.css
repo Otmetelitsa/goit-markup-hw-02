@@ -30,6 +30,11 @@ a {
 
 /*===========================================================*/
 
+.contact-title,
+.features-title {
+  display: none;
+}
+
 .logo-text,
 .nav-link:hover,
 .link:hover,
