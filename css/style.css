@@ -88,23 +88,16 @@ a {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
-.nav-title {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-}
-
+.nav-title,
 .nav-link {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -112,17 +105,18 @@ a {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 .hero-btn {
+  font-family: inherit;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   display: flex;
   align-items: center;
   text-align: center;
@@ -133,7 +127,7 @@ a {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -142,7 +136,7 @@ a {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
@@ -151,7 +145,7 @@ a {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -160,7 +154,7 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
 
   /*text-align: center;*/
   letter-spacing: 0.03em;
@@ -170,35 +164,29 @@ a {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
 
   /*text-align: center;*/
   letter-spacing: 0.03em;
 }
 
-.address {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-}
-
+.address,
 .footer-link {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
 /* PORTFOLIO */
 
 .project-btn: {
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -207,7 +195,7 @@ a {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 
@@ -215,6 +203,6 @@ a {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   letter-spacing: 0.03em;
 }
